@@ -1,9 +1,13 @@
 ## Explicación de Scripts
 
 `01_get-ticket.py`: Pide el ticket de autenticación por medio de un método POST con usuario y clave, y lo muestra por pantalla.
+
 `02_get-network-device.py`: Lista los dispositivos de red por medio de un método GET utilizando el ticket obtenido en `01_get-ticket.py`
+
 `03_get-host.py`: Lista los hosts y su información por un método GET utilizando el ticket obtenido en `01_get-ticket.py`
+
 `04_tabulate.py`: Pide el ticket y muestra una tabla de dispositivos y otra de hosts
+
 `05_propio.oy`: Se autentica en el Network Controller, consulta los descubrimientos de red configurados y muestra sus detalles y un resumen estadístico en tablas.
 
 
